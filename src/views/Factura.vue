@@ -15,10 +15,10 @@
             <vs-input dark border label="Tipo de moneda" />
           </vs-col>
           <vs-col w="2">
-            <vs-input dark border type="date" label="Contraseña" />
+            <vs-input dark border type="date" label="Fecha de emisión" />
           </vs-col>
           <vs-col w="2">
-            <vs-input dark border type="date" label="Contraseña" />
+            <vs-input dark border type="date" label="Fecha de pago" />
           </vs-col>
         </vs-row>
 
