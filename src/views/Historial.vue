@@ -52,7 +52,13 @@
             w="4"
             class="button"
           >
-            <vs-button to="/main" class="button-div" border :active="active == 0" @click="active = 0">
+            <vs-button
+              to="/main"
+              class="button-div"
+              border
+              :active="active == 0"
+              @click="active = 0"
+            >
               Salir
             </vs-button>
           </vs-col>
@@ -225,7 +231,7 @@ export default {
 .body-historial {
   background: white;
   width: 60%;
-  height: 70%;
+  height: auto;
   display: flex;
   flex-direction: column;
 
@@ -247,7 +253,7 @@ h2 {
 }
 .button-div {
   height: 2.5pc;
-  width: 11pc;
+  width: 13rem !important;
 }
 .vs-table__tr {
   font-weight: 600;

@@ -99,7 +99,7 @@ export default {
 .body-register {
   background: white;
   width: 40% !important;
-  height: 55% !important;
+  height: auto !important;
   display: flex;
   flex-direction: column;
 
@@ -118,7 +118,7 @@ h1 {
 }
 .button-div{
   height: 2.5pc;
-  width: 11pc;
+  width: 13rem !important;
 }
 </style>
 

@@ -27,7 +27,7 @@
             vs-align="center"
             w="4"
           >
-            <vs-input border dark label="Contraseña" />
+            <vs-input type="password" border dark label="Contraseña" />
           </vs-col>
         </vs-row>
         <vs-row class="row">

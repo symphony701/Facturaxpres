@@ -22,7 +22,13 @@
             w="4"
             class="button"
           >
-            <vs-button to="/factura" class="button-div" border :active="active == 0" @click="active = 0">
+            <vs-button
+              to="/factura"
+              class="button-div"
+              border
+              :active="active == 0"
+              @click="active = 0"
+            >
               Realizar Factura
             </vs-button>
           </vs-col>
@@ -36,14 +42,18 @@
             w="4"
             class="button"
           >
-            <vs-button to="/historial" class="button-div" border :active="active == 0" @click="active = 0">
+            <vs-button
+              to="/historial"
+              class="button-div"
+              border
+              :active="active == 0"
+              @click="active = 0"
+            >
               Historial de facturas
             </vs-button>
           </vs-col>
         </vs-row>
-        
 
-       
         <vs-row class="row">
           <vs-col
             offset="4"
@@ -53,7 +63,13 @@
             w="4"
             class="button"
           >
-            <vs-button to="/ayuda" class="button-div" border :active="active == 0" @click="active = 0">
+            <vs-button
+              to="/ayuda"
+              class="button-div"
+              border
+              :active="active == 0"
+              @click="active = 0"
+            >
               ¿Necesitas ayuda?
             </vs-button>
           </vs-col>
@@ -67,7 +83,13 @@
             w="4"
             class="button"
           >
-            <vs-button to="/" class="button-div" border :active="active == 0" @click="active = 0">
+            <vs-button
+              to="/"
+              class="button-div"
+              border
+              :active="active == 0"
+              @click="active = 0"
+            >
               Cerrar sesión
             </vs-button>
           </vs-col>
@@ -80,12 +102,9 @@
 <script>
 // @ is an alias to /src
 
-
 export default {
   name: "Main",
-  components: {
-   
-  },
+  components: {},
 };
 </script>
 
@@ -104,7 +123,7 @@ export default {
 .body {
   background: white;
   width: 60%;
-  height: 70%;
+  height: auto;
   display: flex;
   flex-direction: column;
 
@@ -120,12 +139,12 @@ h2 {
 .row {
   margin-top: 2pc !important;
 }
-.button{
+.button {
   display: flex !important;
   justify-content: center !important;
 }
-.button-div{
+.button-div {
   height: 2.5pc;
-  width: 11pc;
+  width: 13rem !important;
 }
 </style>
